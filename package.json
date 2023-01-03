@@ -1,0 +1,33 @@
+{
+  "name": "aws-serverless-auth-x",
+  "version": "0.1.0",
+  "bin": {
+    "aws-serverless-auth-x": "bin/aws-serverless-auth-x.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "10.17.27",
+    "@types/prettier": "2.6.0",
+    "aws-cdk": "2.42.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.9.1",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.106",
+    "aws-cdk-lib": "2.42.0",
+    "aws-sdk": "^2.1286.0",
+    "axios": "^1.1.2",
+    "constructs": "^10.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "jwk-to-pem": "^2.0.5",
+    "source-map-support": "^0.5.21"
+  }
+}
